@@ -1,0 +1,8 @@
+replicaCount: 3
+image:
+  repository: nginx
+  tag: "alpine"
+resources:
+  limits:
+    cpu: "200m"
+    memory: "256Mi"
